@@ -9,5 +9,7 @@ public class CCDIK : MonoBehaviour {
     for (int j = 0; j < joints.Length; j++) {
       joints[j].Evaluate(Tooltip, Target, j < 2);
     }
+
+    Tooltip.rotation = Target.rotation;
   }
 }
