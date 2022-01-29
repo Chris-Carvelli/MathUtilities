@@ -203,6 +203,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &247184281
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +258,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &545615780
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +311,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &656503237
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +555,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &1119858981
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +691,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &1296752784
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +744,9 @@ MonoBehaviour:
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &1363958465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,11 +1079,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: {x: 0, y: 0, z: 1}
-  maxAngle: 270
+  maxAngle: 90
   overrideParent: {fileID: 2041888618}
   baseRot: {x: 0, y: 0, z: 0}
   hingeRot: {x: 0, y: 0, z: 0}
   limitRot: {x: 0, y: 0, z: 0}
+  normal: {x: 0, y: 0, z: 0}
+  parentRotDebug: {x: 0, y: 0, z: 0}
+  rotateToDirection: 0
 --- !u!1 &1841439633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,8 +1315,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2041888618}
-  - component: {fileID: 2041888617}
   - component: {fileID: 2041888619}
+  - component: {fileID: 2041888617}
   m_Layer: 0
   m_Name: Arm
   m_TagString: Untagged
@@ -1355,5 +1376,7 @@ MonoBehaviour:
   Tooltip: {fileID: 206303111}
   Target: {fileID: 95275874}
   joints:
+  - {fileID: 247184283}
   - {fileID: 206303112}
   - {fileID: 1716882934}
+  - {fileID: 1296752786}
